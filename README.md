@@ -1,9 +1,9 @@
-#📝 Blog Writing Platform with AI Suggestions
+# 📝 Blog Writing Platform with AI Suggestions
 
 A full-stack blog writing platform built using Next.js, Spring Boot, MongoDB, and Ollama (DeepSeek-R1).
 The application allows users to create, manage, and explore blogs with AI-powered content suggestions, all running locally.
 
-✨ Features
+## ✨ Features
 
 🔐 User authentication (Register & Login)
 
@@ -17,7 +17,7 @@ The application allows users to create, manage, and explore blogs with AI-powere
 
 🗄️ MongoDB integration with MongoDB Compass for GUI inspection
 
-#🧱 Tech Stack
+## 🧱 Tech Stack
 Frontend
 
 Next.js
@@ -46,7 +46,7 @@ Ollama
 
 DeepSeek-R1 Model
 
-#📁 Project Structure
+## 📁 Project Structure
 blog-writing-project/
 │
 ├── backend/        # Spring Boot backend
@@ -69,7 +69,7 @@ MongoDB Compass
 
 Ollama
 
-Verify installations:
+### Verify installations:
 
 java -version
 mvn -version
@@ -78,7 +78,7 @@ mongod --version
 ollama --version
 🗄️ MongoDB Setup (Using MongoDB Compass)
 
-Start MongoDB service:
+#### Start MongoDB service:
 
 mongod
 
@@ -94,7 +94,7 @@ mongodb://localhost:27017
 
 📌 The database and collections are automatically created by Spring Boot.
 
-🤖 Ollama Setup (DeepSeek-R1)
+### 🤖 Ollama Setup (DeepSeek-R1)
 
 Check available models:
 
@@ -108,7 +108,7 @@ Run the model:
 
 ollama run deepseek-r1
 
-⚠️ Important:
+#### ⚠️ Important:
 The DeepSeek-R1 model must be running before using AI suggestion features.
 
 Ollama runs on:
@@ -129,7 +129,7 @@ spring.data.mongodb.uri=mongodb://localhost:27017/blog_db
 spring.ai.ollama.base-url=http://localhost:11434
 spring.ai.ollama.chat.model=deepseek-r1
 
-Run the backend:
+#### Run the backend:
 
 mvn clean install
 mvn spring-boot:run
@@ -138,12 +138,12 @@ Backend will start at:
 
 http://localhost:8080
 
-Swagger UI (if enabled):
+#### Swagger UI (if enabled):
 
 http://localhost:8080/swagger-ui.html
 🎨 Frontend Setup (Next.js)
 
-Navigate to frontend folder:
+#### Navigate to frontend folder:
 
 cd frontend
 
@@ -177,7 +177,7 @@ Manage personal blogs in Profile section
 
 Inspect data using MongoDB Compass
 
-🔌 Ports Used
+### 🔌 Ports Used
 Service	Port
 Frontend	3000
 Backend	8080
@@ -201,7 +201,7 @@ CORS issue
 This project is deployed locally using Next.js, Spring Boot, MongoDB (with MongoDB Compass), and Ollama running the DeepSeek-R1 model.
 All services run on localhost with no cloud dependencies.
 
-🔮 Future Enhancements
+### 🔮 Future Enhancements
 
 JWT-based authentication
 
@@ -213,7 +213,8 @@ Dockerization
 
 Cloud deployment (AWS / Azure)
 
-👨‍💻 Author
+###👨‍💻 Author
 
-Anshuman Awasthi
+#### Anshuman Awasthi
+
 
