@@ -1,4 +1,4 @@
-📝 Blog Writing Platform with AI Suggestions
+#📝 Blog Writing Platform with AI Suggestions
 
 A full-stack blog writing platform built using Next.js, Spring Boot, MongoDB, and Ollama (DeepSeek-R1).
 The application allows users to create, manage, and explore blogs with AI-powered content suggestions, all running locally.
@@ -17,7 +17,7 @@ The application allows users to create, manage, and explore blogs with AI-powere
 
 🗄️ MongoDB integration with MongoDB Compass for GUI inspection
 
-🧱 Tech Stack
+#🧱 Tech Stack
 Frontend
 
 Next.js
@@ -46,7 +46,7 @@ Ollama
 
 DeepSeek-R1 Model
 
-📁 Project Structure
+#📁 Project Structure
 blog-writing-project/
 │
 ├── backend/        # Spring Boot backend
@@ -59,7 +59,7 @@ Make sure the following tools are installed on your system:
 
 Java 17+
 
-Maven
+#Maven
 
 Node.js 18+
 
@@ -216,3 +216,4 @@ Cloud deployment (AWS / Azure)
 👨‍💻 Author
 
 Anshuman Awasthi
+
