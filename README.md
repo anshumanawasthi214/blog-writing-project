@@ -44,7 +44,9 @@ AI Integration
 
 Ollama
 
-DeepSeek-R1 Model
+DeepSeek-r1:1.5b
+
+#### Project Demo Video Link: 
 
 ## 📁 Project Structure
 blog-writing-project/
@@ -94,7 +96,7 @@ mongodb://localhost:27017
 
 📌 The database and collections are automatically created by Spring Boot.
 
-### 🤖 Ollama Setup (DeepSeek-R1)
+### 🤖 Ollama Setup (deepseek-r1:1.5b)
 
 Check available models:
 
@@ -102,18 +104,18 @@ ollama list
 
 Pull the model if not present:
 
-ollama pull deepseek-r1
+ollama pull deepseek-r1:1.5b
 
 Run the model:
 
-ollama run deepseek-r1
+ollama run deepseek-r1:1.5b
 
 #### ⚠️ Important:
 The DeepSeek-R1 model must be running before using AI suggestion features.
 
 Ollama runs on:
 
-http://localhost:11434
+http://127.0.0.1:11434
 🔧 Backend Setup (Spring Boot)
 
 Navigate to backend folder:
@@ -124,10 +126,10 @@ Configure application.properties:
 
 server.port=8080
 
-spring.data.mongodb.uri=mongodb://localhost:27017/blog_db
+spring.data.mongodb.uri=mongodb://localhost:27017/blog_ai_db
 
-spring.ai.ollama.base-url=http://localhost:11434
-spring.ai.ollama.chat.model=deepseek-r1
+spring.ai.ollama.base-url=http://127.0.0.1:11434
+spring.ai.ollama.chat.model=deepseek-r1:1.5b
 
 #### Run the backend:
 
@@ -216,5 +218,6 @@ Cloud deployment (AWS / Azure)
 ###👨‍💻 Author
 
 #### Anshuman Awasthi
+
 
 
