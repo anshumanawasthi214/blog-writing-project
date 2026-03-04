@@ -5,7 +5,7 @@ The application allows users to create, manage, and explore blogs with AI-powere
 
 ## ✨ Features
 
-🔐 User authentication (Register & Login)
+🔐 User authentication (Register \& Login)
 
 📝 Create, update, and delete blogs
 
@@ -18,6 +18,7 @@ The application allows users to create, manage, and explore blogs with AI-powere
 🗄️ MongoDB integration with MongoDB Compass for GUI inspection
 
 ## 🧱 Tech Stack
+
 Frontend
 
 Next.js
@@ -46,9 +47,14 @@ Ollama
 
 DeepSeek-r1:1.5b
 
-#### Project Demo Video Link: 
+#### Project Demo Video Link:
+
+
+
+https://www.linkedin.com/posts/anshumanawasthi214\_java-springboot-nextjs-ugcPost-7434975433466576896-br9V?utm\_source=share\&utm\_medium=member\_desktop\&rcm=ACoAAE1czH4B9B3JRUFOPDkV4DptUuxgPoLtois
 
 ## 📁 Project Structure
+
 blog-writing-project/
 │
 ├── backend/        # Spring Boot backend
@@ -61,7 +67,7 @@ Make sure the following tools are installed on your system:
 
 Java 17+
 
-#Maven
+\#Maven
 
 Node.js 18+
 
@@ -111,6 +117,7 @@ Run the model:
 ollama run deepseek-r1:1.5b
 
 #### ⚠️ Important:
+
 The DeepSeek-R1 model must be running before using AI suggestion features.
 
 Ollama runs on:
@@ -126,7 +133,7 @@ Configure application.properties:
 
 server.port=8080
 
-spring.data.mongodb.uri=mongodb://localhost:27017/blog_ai_db
+spring.data.mongodb.uri=mongodb://localhost:27017/blog\_ai\_db
 
 spring.ai.ollama.base-url=http://127.0.0.1:11434
 spring.ai.ollama.chat.model=deepseek-r1:1.5b
@@ -151,7 +158,7 @@ cd frontend
 
 Create .env.local:
 
-NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
+NEXT\_PUBLIC\_API\_BASE\_URL=http://localhost:8080
 
 Install dependencies and run:
 
@@ -180,12 +187,13 @@ Manage personal blogs in Profile section
 Inspect data using MongoDB Compass
 
 ### 🔌 Ports Used
+
 Service	Port
 Frontend	3000
 Backend	8080
 MongoDB	27017
 Ollama	11434
-⚠️ Common Issues & Solutions
+⚠️ Common Issues \& Solutions
 
 MongoDB connection issue
 
@@ -215,9 +223,7 @@ Dockerization
 
 Cloud deployment (AWS / Azure)
 
-###👨‍💻 Author
+\### 👨‍💻 Author
 
 #### Anshuman Awasthi
-
-
 
